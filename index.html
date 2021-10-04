@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+      <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
+      <link rel="stylesheet" href="./assets/style/base.css">
+      <link rel="stylesheet" href="./assets/style/main.css">
+      <title>Zing Music</title>
+</head>
+<body>
+     <div class="plays">
+       <!-- header -->
+       <div class="header">
+         <div class="header__title">
+          <h4 class="header__title--heading">Zing music</h4>
+          <i class="header__title--icon fas fa-guitar"></i>
+         </div>
+         <!-- CD -->
+         <div class="header__info">
+           <span>
+             <img src="./assets/image/img.cuoithoi.jpg" class="header__info--img" alt="">
+           </span>
+           <div class="header__name--song">
+            Cửu Môn Hồi Ức
+           </div>
+         </div>
+         <div class="header__progress">
+           <span class="header__progress--start">00:00</span>
+           <input class="header__progress--input" type="range" value="0" min="0" max="100" step="1">
+           <span class="header__progress--end">00:00</span>
+         </div>
+         <div class="header__control">
+           <div class="btn btn-loop">
+            <i class="ti-loop"></i>
+           </div>
+           <div class="btn btn-back">
+            <i class="ti-control-backward"></i>
+           </div>
+           <div class="btn btn-play-stop btn__play">
+            <i class="ti-control-play"></i>
+            <!-- <i class="ti-control-pause"></i> -->
+           </div>
+           <div class="btn btn-next">
+            <i class="ti-control-forward"></i>
+           </div>
+           <div class="btn btn-random">
+            <i class="ti-control-shuffle"></i>
+           </div>
+         </div>
+         <!-- <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+         --> 
+         <audio id="audio" src=""></audio>
+       </div>
+       <div class="body__music">
+        <!-- <div class="body__music--item active">
+          <img src="./assets/image/img.khuccuumonhoiuc.jpg" alt="">
+           <div class="body__music--info ">
+                 <h3 class="body__music--name">${song.name}</h3>
+                 <p class="body__music--singer">${song.singer}</p>
+           </div>
+           <div class="body__mucic--options">
+                 <i class="ti-more"></i>
+          </div>
+        </div> -->
+        </div>
+       </div>
+     </div>
+    </body>
+    <script src="./assets/JS/main.js"></script>
+</html>
+
+

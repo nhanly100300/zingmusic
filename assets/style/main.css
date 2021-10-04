@@ -1,0 +1,140 @@
+.plays{
+  width: 100%;
+}
+.header{
+  width: 100%;
+  border: 2px solid #ccc;
+  background-image:linear-gradient(0,#3aa9ca,#1d75de);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.header__title{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  height: 46px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.header__title--icon{
+  color:#fa99c4;
+  font-size: 26px;
+}
+.header__title--heading{
+  margin: 0 8px;
+  color: #fff;
+  font-size: 22px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header__info{
+  width: 100%;
+  text-align: center;
+  margin: 24px 0;
+}
+.header__info--img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  object-fit: inherit;
+  will-change: transform;
+}
+.header__name--song{
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #25282c;
+}
+.header__progress{
+  text-align: center;
+  margin: 12px 0px 16px;
+}
+.header__progress--start{
+  position: relative;
+  top: 3px;
+  font-size: 12px;
+  color: #25282c;
+}
+.header__progress--input{
+  min-width: 60%;
+  max-height: 2px;
+  color: #25282c;
+  /* color: aquamarine;/ */
+}
+.header__progress--end{
+  position: relative;
+  top: 3px;
+  font-size: 12px;
+  color: #25282c;
+}
+
+.header__control{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 12px auto;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+}
+
+.btn__play i{
+  padding: 5px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.body__music{
+  margin-top: 513px;
+  padding: 12px;
+  /* background-color: rgb(235, 235, 235); */
+  background-color: #efe2f1;
+}
+.body__music--item{
+  display: flex;
+  margin: 10px 16px;
+  padding: 2px 0;
+  border-radius: 6px;
+  border: 1px solid rgb(223, 223, 223);
+  max-height: 62px;
+  overflow: hidden; 
+  background-color: #e6ebff;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+.body__music--item:hover{
+  opacity: 0.8;
+  cursor: pointer;
+
+}
+.body__music--item:active{
+  opacity: 0.6;
+}
+.body__music--item img{
+  width: 40px;
+  margin-left: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.body__music--info{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+  line-height: 1.5;
+}
+.body__music--name{
+  font-size: 16px;
+  font-weight: 400;
+}
+.body__music--singer{
+  font-size: 14px;
+  font-weight: 300;
+}
+.body__music--options{
+  width: 40px;
+  line-height: 42px;
+  font-size: 14px;
+}
